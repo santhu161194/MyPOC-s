@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script>
+function myFunction(z) {
+    var select = document.getElementById("year");
+    for(var i = 2011; i >= z; --i) {
+        var option = document.createElement('option');
+        option.text = option.value = i;
+        select.add(option, 0);
+    }
+};
+</script>
+<body>
+
+<div ng-app="">
+  <p>Name : <input id="box" ng-hide="false" type="text" ng-model="name"></p>
+  <h1>Hello {{name}}</h1>
+  <input id="click_me_button" type="button" value="Click me bro I will fill that select Options for you">Button</input>
+  
+	<div id="div" ng-hide="false">
+	<h1>Welcome</h1>
+	<p>Welcome to my home.</p>
+	</div>
+	<select id="year">
+	<option>something</option>
+	</select>
+</div>
+
+</body>
+</html> 

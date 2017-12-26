@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutY="-5.0" prefHeight="668.0" prefWidth="782.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="274.0" prefWidth="782.0" VBox.vgrow="NEVER">
+               <children>
+                  <VBox prefHeight="230.0" prefWidth="384.0" spacing="12.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="Find Cutomer By">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <ComboBox maxHeight="Infinity" maxWidth="Infinity" prefHeight="26.0" prefWidth="91.0" />
+                              <TextField maxHeight="Infinity" maxWidth="Infinity" prefHeight="26.0" prefWidth="142.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="Name" HBox.hgrow="NEVER" />
+                              <TextField prefHeight="26.0" prefWidth="312.0" />
+                           </children>
+                        </HBox>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="Mobile" />
+                              <TextField prefHeight="26.0" prefWidth="225.0" />
+                           </children>
+                        </HBox>
+                        <HBox spacing="5.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="CFP Into" />
+                              <ComboBox prefHeight="26.0" prefWidth="62.0" />
+                              <Label text="Flexi Intro" />
+                              <ComboBox prefHeight="26.0" prefWidth="74.0" />
+                              <Button fx:id="done2" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" text="Get Points" />
+                           </children>
+                        </HBox>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="ID" />
+                              <TextField prefHeight="26.0" prefWidth="96.0" />
+                              <Label text="Card No." />
+                              <TextField prefHeight="26.0" prefWidth="155.0" />
+                           </children>
+                        </HBox>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="Phone" />
+                              <TextField prefHeight="26.0" prefWidth="225.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox spacing="12.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Button fx:id="done211" mnemonicParsing="false" prefHeight="26.0" prefWidth="162.0" style="-fx-background-color: #a9da2e;" text="Create Customer" textFill="#0d0d0d" />
+                              <Button fx:id="done21" mnemonicParsing="false" prefHeight="26.0" prefWidth="162.0" text="Edit Customer" />
+                           </children>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="Name" />
+                              <TextField prefHeight="26.0" prefWidth="271.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="Address" />
+                              <TextField prefHeight="26.0" prefWidth="271.0" />
+                           </children>
+                        </HBox>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="Ref. Doctor" />
+                              <TextField prefHeight="26.0" prefWidth="271.0" />
+                           </children>
+                        </HBox>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="Age" />
+                              <TextField prefHeight="26.0" prefWidth="74.0" />
+                              <Label text="Gender" />
+                              <ComboBox prefHeight="26.0" prefWidth="116.0" />
+                           </children>
+                        </HBox>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label text="Doctor RegNo" />
+                              <TextField maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="271.0" />
+                           </children>
+                        </HBox>
+                        <HBox spacing="15.0" VBox.vgrow="NEVER">
+                           <children>
+                              <CheckBox mnemonicParsing="false" text="Manual Sale" />
+                              <Label text="Bill No." />
+                              <TextField prefHeight="26.0" prefWidth="155.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Label prefHeight="25.0" prefWidth="155.0" style="-fx-background-color: white;" text="Payment Details">
+               <font>
+                  <Font name="FreeSerif Bold" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="-20.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+            </Label>
+            <VBox prefHeight="141.0" prefWidth="782.0" spacing="15.0" VBox.vgrow="NEVER">
+               <children>
+                  <HBox spacing="12.0" VBox.vgrow="NEVER">
+                     <children>
+                        <CheckBox mnemonicParsing="false" text="By Cash/Given Amount" />
+                        <TextField prefHeight="26.0" prefWidth="162.0" />
+                     </children>
+                  </HBox>
+                  <HBox spacing="12.0" VBox.vgrow="NEVER">
+                     <children>
+                        <CheckBox mnemonicParsing="false" text="CreditCard/DebitCard" />
+                        <Label text="Transaction No." />
+                        <TextField prefHeight="26.0" prefWidth="74.0" />
+                        <Label text="Amount" />
+                        <TextField prefHeight="26.0" prefWidth="74.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="26.0" prefWidth="738.0" spacing="12.0" VBox.vgrow="NEVER">
+                     <children>
+                        <Label text="Last 4 Digits">
+                           <HBox.margin>
+                              <Insets left="180.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField prefHeight="26.0" prefWidth="74.0" />
+                        <Label text="Device Name" />
+                        <ComboBox prefHeight="26.0" prefWidth="116.0" />
+                     </children>
+                  </HBox>
+                  <HBox spacing="12.0" VBox.vgrow="NEVER">
+                     <children>
+                        <CheckBox mnemonicParsing="false" text="By Wallet Payment" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox prefHeight="26.0" prefWidth="782.0" spacing="15.0" VBox.vgrow="NEVER">
+               <children>
+                  <CheckBox maxHeight="Infinity" maxWidth="Infinity" mnemonicParsing="false" text="Take Print Before Sale" HBox.hgrow="ALWAYS">
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </CheckBox>
+                  <Button fx:id="done22" maxHeight="Infinity" maxWidth="Infinity" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" text="Get Points" HBox.hgrow="ALWAYS" />
+                  <Label maxHeight="Infinity" maxWidth="Infinity" text="Sale Amount" HBox.hgrow="ALWAYS">
+                     <padding>
+                        <Insets top="3.0" />
+                     </padding>
+                  </Label>
+                  <TextField maxHeight="Infinity" maxWidth="Infinity" prefHeight="26.0" prefWidth="74.0" HBox.hgrow="ALWAYS" />
+                  <Label maxHeight="Infinity" maxWidth="Infinity" text="Return Amount" HBox.hgrow="ALWAYS">
+                     <padding>
+                        <Insets top="3.0" />
+                     </padding>
+                  </Label>
+                  <TextField maxHeight="Infinity" maxWidth="Infinity" prefHeight="26.0" prefWidth="74.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox VBox.vgrow="ALWAYS">
+               <children>
+                  <Pane HBox.hgrow="ALWAYS">
+                     <children>
+                        <TextFlow prefHeight="217.0" prefWidth="769.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="                                                                                                                                                                                   " />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="        SNO           Product              Manufacturer           SCH       BatchDt     Exp       MRP      RATE    QTY     AMT           " wrappingWidth="739.33154296875">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </TextFlow>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

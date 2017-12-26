@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script>
+function myFunction(){
+	 var a=document.getElementById('firstname').value;
+	  var b=document.getElementById('lastname').value;
+	  var d={'firstname':a,'lastname':b};
+	  var json=JSON.stringify(d);
+		alert(json);
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" id="myForm" >
+  First name:<br>
+  <input type="text" id="firstname" value="Mickey" ng-model="">
+  <br>
+  Last name:<br>
+  <input type="text" id="lastname" value="Mouse">
+  <br><br>
+  <input type="button" value="Submit" onclick="myFunction()">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+	<fx:define>
+    <Screen fx:factory="getPrimary" fx:id="screen" />
+</fx:define>
+   <children>
+ <HBox  prefHeight="${screen.visualBounds.height}" prefWidth="${screen.visualBounds.width}">
+         <children>
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
